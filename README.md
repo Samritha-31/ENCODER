@@ -9,7 +9,7 @@ To implement  Encoder 8 To 3 in Dataflow Modelling using verilog and validating 
 
 Quartus prime
 
-*THEORY*
+
 
 ## Encoder 8 To 3
 
@@ -59,18 +59,21 @@ assign a=(din[4]| din[5]| din[6 ]| din[7]);
 assign b=(din[2]| din[3]| din[6]| din[7]);
 assign c=(din[1]| din[3]| din[5 ]| din[7]);
 endmodule
-~~~
+
 
 Developed by:SAMRITHA.G
 RegisterNumber:25011974
 
+~~~
 
 ## RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling
-<img width="1920" height="825" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/88f151aa-97bc-4e18-a7d2-6f6e3175bcd5" />
+<img width="1464" height="839" alt="encoder output" src="https://github.com/user-attachments/assets/6d42f01b-d6f0-4ed9-9aa0-7e6f09c69c33" />
+
 
 
 ## TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling
-<img width="1920" height="798" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/53bdd8cb-ca67-4184-9b3c-a4293b83cd8c" />
+<img width="1894" height="716" alt="encorder wave" src="https://github.com/user-attachments/assets/421a5d48-1dc3-47bf-b44b-2bfdc7f50b14" />
+
 
 *RESULTS*
 
